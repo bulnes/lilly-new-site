@@ -8,13 +8,19 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "lint-staged": {},
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
     "next": "^14.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.0"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.1.4"
   }
 }
