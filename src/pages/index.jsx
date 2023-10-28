@@ -1,14 +1,9 @@
 import Link from "next/link";
-import styled from "styled-components";
-
-const Title = styled.h1`
-  color: red;
-`;
 
 export default function Index({ title }) {
   return (
     <>
-      <Title>{title}</Title>
+      <h1 className="text-3xl font-bold underline">{title}</h1>
 
       <Link href="/about">About</Link>
     </>
