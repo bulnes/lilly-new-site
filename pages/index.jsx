@@ -5,12 +5,20 @@ const Title = styled.h1`
   color: red;
 `;
 
-export default function Page() {
+export default function Index({ title }) {
   return (
     <>
-      <Title>Hello, Next.js!</Title>
+      <Title>{title}</Title>
 
       <Link href="/about">About</Link>
     </>
   );
+}
+
+export function getStaticProps() {
+  return {
+    props: {
+      title: "Hello, Lilly!",
+    },
+  };
 }
