@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-export function Icon({ name, width = 24, height = 24, className = "" }) {
+export function Icon({ name, className = "" }) {
   return (
     <Image
       src={`/images/icons/${name}.svg`}
       alt=""
-      width={width}
-      height={height}
+      width={24}
+      height={24}
       loading={"lazy"}
       className={className}
     />
