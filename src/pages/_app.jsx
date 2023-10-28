@@ -31,6 +31,13 @@ export default function App({ Component, pageProps }) {
         <meta name="referrer" content="always" />
 
         <title>Lilly Estética</title>
+
+        <link
+          rel="icon"
+          href="/images/icons/favicon.png"
+          type="image/gif"
+          sizes="48x48"
+        />
       </Head>
 
       <style jsx global>{`
