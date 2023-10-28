@@ -4,7 +4,7 @@ import { Header } from "../page-components/header/header";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="pt-br">
       <Head />
       <body>
         <Header />
