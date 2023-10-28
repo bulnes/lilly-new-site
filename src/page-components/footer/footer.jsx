@@ -11,13 +11,37 @@ export function Footer() {
       <Container>
         <div className="mb-7 flex flex-col items-center gap-9 lg:mb-12 lg:flex-row lg:gap-0 lg:justify-between">
           <Link href="/">
-            <Logo white className="w-16 h-auto lg:w-20" />
+            <Logo
+              type="white"
+              width={68}
+              height={36}
+              desktopHeight={43}
+              desktopWidth={85}
+            />
           </Link>
 
           <div className="flex flex-row items-center justify-center gap-3 lg:gap-6 lg:order-2">
-            <Icon name="instagram-white" className="w-8 h-8 lg:w-11 lg:h-11" />
-            <Icon name="facebook-white" className="w-8 h-8 lg:w-11 lg:h-11" />
-            <Icon name="whatsapp-white" className="w-8 h-8 lg:w-11 lg:h-11" />
+            <Icon
+              name="instagram-white"
+              width={32}
+              desktopWidth={44}
+              height={32}
+              desktopHeight={44}
+            />
+            <Icon
+              name="facebook-white"
+              width={32}
+              desktopWidth={44}
+              height={32}
+              desktopHeight={44}
+            />
+            <Icon
+              name="whatsapp-white"
+              width={32}
+              desktopWidth={44}
+              height={32}
+              desktopHeight={44}
+            />
           </div>
 
           <div className="flex flex-col items-center justify-center gap-3 lg:flex-row lg:gap-6">
@@ -57,7 +81,13 @@ export function Footer() {
           </div>
 
           <ButtonCTAWhite href={"/"} className="max-w-xs">
-            <Icon name="whatsapp" className="w-4 h-4 lg:w-5 lg:h-5" />
+            <Icon
+              name="whatsapp"
+              width={16}
+              height={16}
+              desktopHeight={19}
+              desktopWidth={19}
+            />
             <span>Saiba mais</span>
           </ButtonCTAWhite>
         </div>
