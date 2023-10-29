@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { ButtonCTAWhite } from "../../components/button-cta/button-cta";
-import { Container } from "../../components/container/container";
-import { Divider } from "../../components/divider/divider";
-import { Icon } from "../../components/icon/icon";
-import { Logo } from "../../components/logo/logo";
+import { ButtonCTAWhite } from "../button-cta/button-cta";
+import { Container } from "../container/container";
+import { Divider } from "../divider/divider";
+import { Icon } from "../icon/icon";
+import { Logo } from "../logo/logo";
 
 export function Footer() {
   return (

@@ -5,6 +5,9 @@ module.exports = {
       maxWidth: {
         "8xl": "91rem",
       },
+      fontSize: {
+        xxl: ["10px", "10px"],
+      },
     },
   },
   plugins: [],

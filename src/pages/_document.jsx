@@ -1,8 +1,12 @@
 import { Head, Html, Main, NextScript } from "next/document";
-import { Footer } from "../page-components/footer/footer";
-import { Header } from "../page-components/header/header";
+import { usePathname } from "next/navigation";
+import { Footer } from "../components/footer/footer";
+import { Header } from "../components/header/header";
+import { ToolBar } from "../components/toolbar/toolbar";
 
 export default function Document() {
+  const pathname = usePathname();
+
   return (
     <Html lang="pt-br">
       <Head />
@@ -10,6 +14,7 @@ export default function Document() {
         <Header />
         <Main />
         <Footer />
+        <ToolBar />
         <NextScript />
       </body>
     </Html>
