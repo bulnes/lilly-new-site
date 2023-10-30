@@ -75,8 +75,8 @@ const items = [
 
 export function Menu() {
   return (
-    <nav className="hidden peer-checked/mainmenu:block fixed top-0 left-0 right-0 bottom-0 w-full h-full z-30 bg-black bg-opacity-70">
-      <div className="bg-white rounded-tr-3xl rounded-br-3xl pt-11 pr-7 h-full w-5/6 animate-slideinleft">
+    <nav className="hidden peer-checked/mainmenu:block fixed top-0 left-0 right-0 bottom-0 w-full h-screen min-h-full z-30 bg-black bg-opacity-70">
+      <div className="bg-white rounded-tr-3xl rounded-br-3xl py-11 pr-7 h-full w-5/6 animate-slideinleft">
         {/* Menu's header */}
         <div className="flex items-center justify-between pl-9 mb-14">
           <Logo type="black" width={68} height={36} />
