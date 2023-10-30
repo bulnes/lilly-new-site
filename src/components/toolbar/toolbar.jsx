@@ -49,7 +49,7 @@ const items = [
 
 export function ToolBar() {
   return (
-    <section className="block lg:hidden py-3 sticky bottom-0 left-0 z-20 bg-white shadow-[0_-4px_8px_0px_rgba(0,0,0,0.8)]">
+    <section className="block lg:hidden py-3 fixed bottom-0 left-0 right-0 z-20 bg-white shadow-[0_-4px_8px_0px_rgba(0,0,0,0.8)]">
       <Container>
         <div className="flex flex-row items-center justify-evenly max-w-md mx-auto">
           {/* Show all toolbar items */}

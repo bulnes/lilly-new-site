@@ -7,7 +7,23 @@ export function Icon({
   height = 24,
   desktopWidth = 24,
   desktopHeight = 24,
+  isResponsive = true,
 }) {
+  const defaultImage = (
+    <Image
+      src={`/images/icons/${name}.svg`}
+      alt=""
+      width={width}
+      height={height}
+      loading={"lazy"}
+      className={className}
+    />
+  );
+
+  if (isResponsive === false) {
+    return defaultImage;
+  }
+
   return (
     <picture>
       {/* Desktop image */}
@@ -19,14 +35,7 @@ export function Icon({
       />
 
       {/* Default image (mobile first) */}
-      <Image
-        src={`/images/icons/${name}.svg`}
-        alt=""
-        width={width}
-        height={height}
-        loading={"lazy"}
-        className={className}
-      />
+      {defaultImage}
     </picture>
   );
 }

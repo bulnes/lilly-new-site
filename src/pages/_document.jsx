@@ -10,11 +10,11 @@ export default function Document() {
   return (
     <Html lang="pt-br">
       <Head />
-      <body>
+      <body className="h-full">
         <Header />
         <Main />
-        <Footer />
         <ToolBar />
+        <Footer />
         <NextScript />
       </body>
     </Html>
