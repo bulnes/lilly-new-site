@@ -7,7 +7,7 @@ import { Logo } from "../logo/logo";
 
 export function Footer() {
   return (
-    <footer className="bg-black text-white pt-12 pb-52 rounded-t-2xl text-base lg:text-xl lg:pt-24 lg:pb-28">
+    <footer className="bg-black text-white pt-12 pb-52 rounded-t-2xl text-base lg:pt-24 lg:pb-28">
       <Container>
         <div className="mb-7 flex flex-col items-center gap-9 lg:mb-12 lg:flex-row lg:gap-0 lg:justify-between">
           <Link href="/">

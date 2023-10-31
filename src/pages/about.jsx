@@ -1,11 +1,16 @@
-import Link from "next/link";
+import { ButtonCTABlack } from "../components/button-cta/button-cta";
+import { Container } from "../components/container/container";
 
 export default function About() {
   return (
-    <>
-      <h1>About</h1>
+    <div className="py-10">
+      <Container>
+        <h1 className="text-4xl font-bold underline mb-6">Sobre nós</h1>
 
-      <Link href="/">Go home</Link>
-    </>
+        <ButtonCTABlack href="/" className="w-96">
+          Voltar para home
+        </ButtonCTABlack>
+      </Container>
+    </div>
   );
 }
