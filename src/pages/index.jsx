@@ -7,7 +7,7 @@ export default function Index({ title }) {
       <Container>
         <h1 className="text-4xl font-bold underline mb-6">{title}</h1>
 
-        <ButtonCTABlack href="/about" className="w-96">
+        <ButtonCTABlack href="/about" className="lg:w-96">
           Acessar página sobre nós
         </ButtonCTABlack>
       </Container>

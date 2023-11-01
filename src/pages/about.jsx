@@ -7,7 +7,7 @@ export default function About() {
       <Container>
         <h1 className="text-4xl font-bold underline mb-6">Sobre nós</h1>
 
-        <ButtonCTABlack href="/" className="w-96">
+        <ButtonCTABlack href="/" className="lg:w-96">
           Voltar para home
         </ButtonCTABlack>
       </Container>
