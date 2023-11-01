@@ -40,7 +40,7 @@ export function Header() {
             className="mb-1 lg:mb-0"
           />
 
-          <ButtonCTABlack href="/" className="hidden lg:flex w-52">
+          <ButtonCTABlack href="/" className="hidden lg:flex w-48">
             <Icon
               name="whatsapp-white"
               width={16}
