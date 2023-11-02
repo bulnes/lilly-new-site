@@ -193,7 +193,7 @@ export function Menu() {
   return (
     <nav className="hidden peer-checked/mainmenu:block fixed top-0 left-0 right-0 bottom-0 w-full h-screen min-h-full z-30 bg-black bg-opacity-70 lg:block lg:static lg:h-auto lg:min-h-0 lg:z-auto lg:bg-transparent lg:w-2/3">
       {/* Menu content */}
-      <div className="bg-white rounded-tr-3xl rounded-br-3xl py-11 pr-7 h-full w-5/6 animate-slideinleft overflow-x-hidden overflow-y-scroll lg:overflow-auto lg:py-0 lg:pr-0 lg:animate-none lg:w-full lg:h-auto">
+      <div className="bg-white rounded-tr-3xl rounded-br-3xl py-11 pr-7 h-full w-5/6 animate-slideinleft overflow-x-hidden overflow-y-scroll lg:overflow-x-visible lg:overflow-y-visible lg:py-0 lg:pr-0 lg:animate-none lg:w-full lg:h-auto">
         {/* Menu's header */}
         <div className="flex items-center justify-between pl-9 mb-14 lg:hidden">
           <Logo type="black" width={68} height={36} />
@@ -281,7 +281,7 @@ export function Menu() {
 
                             <label
                               for={`subitem-${key}-${subitemKey}`}
-                              className="flex items-center justify-between cursor-pointer grow py-3 pl-14 lg:pl-0 lg:px-3 peer/menudropdown"
+                              className="flex items-center justify-between cursor-pointer grow py-3 pl-14 lg:px-3 peer/menudropdown"
                             >
                               <span className="text-sm font-bold tracking-wide">
                                 {subitem.name}
@@ -292,11 +292,11 @@ export function Menu() {
                               name="arrow-down"
                               width={16}
                               height={8}
-                              className="peer-checked/subsubitem:rotate-180 lg:pl-1 group-hover/level2:lg:rotate-180 group-hover/level2:lg:pr-1 group-hover/level2:lg:pl-0"
+                              className="peer-checked/subsubitem:rotate-180 lg:absolute lg:right-2 lg:w-3 lg:-rotate-90 group-hover/level2:lg:rotate-90"
                               isResponsive={false}
                             />
 
-                            <ul className="basis-full hidden peer-checked/subsubitem:block group-hover/level2:lg:block lg:absolute lg:top-9 lg:bg-[#F0F0F0] lg:rounded">
+                            <ul className="basis-full hidden peer-checked/subsubitem:block group-hover/level2:lg:block lg:absolute lg:top-0 lg:-right-52 lg:bg-[#F0F0F0] lg:rounded lg:rounded-tl-none">
                               {subitem.subitems.map((subitem) => (
                                 <li
                                   key={subitem.name}
