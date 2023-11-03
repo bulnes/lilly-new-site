@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
           content="d05755a8836d70784fd0af4daf55071d"
         />
 
-        <link rel="canonical" href="https://www.lillyestetica.com.br" />
+        <link rel="canonical" href="https://lilly-new-site.vercel.app" />
 
         {/* Primary Meta Tags */}
         <title>Lilly Estética - Clínica de Estética Avançada</title>
