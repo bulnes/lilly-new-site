@@ -17,7 +17,7 @@ export function FaqContent({ faqQuestions = [] }) {
 
           <label
             for={`faq-${index}`}
-            className="flex items-center justify-between gap-1 cursor-pointer"
+            className="flex items-start justify-between gap-3 cursor-pointer"
           >
             <h3 className="text-base font-semibold lg:text-xl">
               <span>{faqQuestion.question}</span>
