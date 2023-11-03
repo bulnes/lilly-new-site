@@ -8,11 +8,11 @@ export function SubSubItems({ itemKey, subitemKey, subitem }) {
         type="checkbox"
         id={`subitem-${itemKey}-${subitemKey}`}
         name="q"
-        class="hidden peer/subsubitem"
+        className="hidden peer/subsubitem"
       />
 
       <label
-        for={`subitem-${itemKey}-${subitemKey}`}
+        htmlFor={`subitem-${itemKey}-${subitemKey}`}
         className="flex items-center justify-between cursor-pointer grow py-3 pl-14 lg:px-3 peer/menudropdown"
       >
         <span className="text-sm font-bold tracking-wide">{subitem.name}</span>

@@ -13,10 +13,10 @@ export function Header() {
             type="checkbox"
             id="mainmenu"
             name="mainmenu"
-            class="peer/mainmenu hidden"
+            className="peer/mainmenu hidden"
           />
 
-          <label for="mainmenu" className="cursor-pointer lg:hidden">
+          <label htmlFor="mainmenu" className="cursor-pointer lg:hidden">
             <Icon
               name="burger"
               width={31}
@@ -51,7 +51,7 @@ export function Header() {
             <span>Fale Conosco</span>
           </ButtonCTABlack>
 
-          <div class="hidden lg:block relative w-56">
+          <div className="hidden lg:block relative w-56">
             <input
               type="search"
               id="search"

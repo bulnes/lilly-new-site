@@ -13,7 +13,7 @@ export function Menu() {
         <div className="flex items-center justify-between pl-9 mb-14 lg:hidden">
           <Logo type="black" width={68} height={36} />
 
-          <label for="mainmenu" className="cursor-pointer">
+          <label htmlFor="mainmenu" className="cursor-pointer">
             <Icon name={"close"} width={19} height={19} />
             <span className="sr-only">Fechar</span>
           </label>

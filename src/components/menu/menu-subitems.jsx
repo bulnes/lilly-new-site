@@ -9,11 +9,11 @@ export function SubItems({ itemKey, item }) {
         type="checkbox"
         id={`menu-${itemKey}`}
         name="q"
-        class="hidden peer/subitem"
+        className="hidden peer/subitem"
       />
 
       <label
-        for={`menu-${itemKey}`}
+        htmlFor={`menu-${itemKey}`}
         className="flex items-center justify-between cursor-pointer grow pl-9 lg:pl-0 peer/menudropdown"
       >
         <span className="text-sm font-bold uppercase tracking-wide lg:capitalize lg:text-base lg:font-normal">
