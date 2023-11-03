@@ -53,8 +53,8 @@ export function Header() {
 
           <div class="hidden lg:block relative w-56">
             <input
-              type="text"
-              id="password"
+              type="search"
+              id="search"
               className="w-full pl-6 pr-10 py-4 rounded-xl focus:outline-none focus:border-blue-500 transition-colors bg-[#F0F0F0] text-xs"
               placeholder="Buscar"
             />
