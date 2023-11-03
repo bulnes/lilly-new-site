@@ -6,7 +6,7 @@ import { Menu } from "../menu/menu";
 
 export function Header() {
   return (
-    <header className="border-b-2 lg:rounded-b-3xl">
+    <header className="border-b-2 lg:rounded-b-3xl bg-white text-black">
       <Container className="border-b-2">
         <div className="pt-10 pb-2 flex items-end justify-between lg:items-center lg:py-4 lg:gap-6">
           <input

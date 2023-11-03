@@ -3,7 +3,7 @@ import Head from "next/head";
 import "tailwindcss/tailwind.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
-  weight: ["400", "700"],
+  weight: ["400", "600", "700", "800"],
   subsets: ["latin"],
 });
 
@@ -47,6 +47,12 @@ export default function App({ Component, pageProps }) {
         button,
         textarea {
           font-family: ${plusJakartaSans.style.fontFamily};
+          color: #656565;
+        }
+
+        html,
+        body {
+          background-color: #f4f4f4;
         }
       `}</style>
 

@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Como funciona o Lilly Club?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non gravida orci, nec tristique nisl. Aenean vitae consequat tellus, at feugiat elit. Aenean eget porta nisl, nec sagittis eros. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Maecenas sagittis purus et tortor venenatis dapibus. Morbi sem libero, iaculis eget sem id, molestie venenatis odio. Morbi vel nisi condimentum, interdum turpis et, cursus metus. Integer dapibus sapien nec lacus aliquam lacinia. Etiam urna est, tincidunt et nulla nec, ultricies dapibus nulla. Maecenas erat ex, dapibus id turpis vestibulum, blandit molestie nulla."
+  },
+  {
+    "question": "Quantas sessões ou serviços eu posso fazer por mês?",
+    "answer": "Praesent quis turpis suscipit, scelerisque massa eu, tempor erat. Sed laoreet felis in quam hendrerit, vitae efficitur neque dapibus. Nullam a luctus orci. Nullam ornare lectus vel arcu finibus, id condimentum quam fringilla. Nullam malesuada fringilla neque, eu pellentesque nunc placerat eget. In viverra pellentesque mauris, quis hendrerit libero. Phasellus luctus lobortis vestibulum. Donec enim est, fermentum ut suscipit quis, rutrum sed tortor. Morbi non ipsum in arcu eleifend laoreet."
+  },
+  {
+    "question": "Existe contrato, ou eu posso cancelar quando eu quiser?",
+    "answer": "Proin pharetra sagittis mi, vel viverra dui volutpat vitae. Praesent augue erat, dignissim ac consequat eget, sollicitudin eu justo. Vestibulum vehicula nunc ut est convallis ultrices. In hac habitasse platea dictumst. Maecenas vel mauris consequat, imperdiet ante vitae, auctor velit. In vel lacinia nisi. Morbi sed erat facilisis, ultrices nisi in, scelerisque mauris. Praesent posuere tincidunt lorem, sit amet luctus nibh scelerisque ut."
+  },
+  {
+    "question": "O Lilly Club me dá acesso a qualquer clínica em diferente estados e cidades?",
+    "answer": "Ut commodo luctus luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Donec ut nunc convallis, elementum nisi varius, lacinia justo. Ut tortor ex, sagittis in tristique a, facilisis vitae sem. Nullam egestas, elit non condimentum mollis, purus risus sodales diam, eget condimentum dolor nunc ac velit. Donec at nibh consequat, pharetra neque eu, egestas arcu. Duis id tempor massa, nec tincidunt lacus."
+  },
+  {
+    "question": "Quanto custa para fazer parte do Lilly Club?",
+    "answer": "Suspendisse nec elit accumsan, venenatis justo sed, luctus dui. Morbi vitae sem mollis, bibendum orci sed, pharetra elit. Etiam commodo metus rhoncus malesuada faucibus. Pellentesque vitae facilisis mi, a iaculis massa. Vestibulum auctor metus nec lacus pretium dictum. Maecenas semper pharetra magna id condimentum. Ut finibus eros quis massa bibendum, in porta dui dictum. Nullam interdum vel odio mattis laoreet. Nulla justo dolor, gravida non cursus eget, vestibulum a augue. Vestibulum vulputate arcu nibh, iaculis finibus ligula dignissim sit amet. Etiam sit amet ultricies diam, vel convallis tortor."
+  }
+]
