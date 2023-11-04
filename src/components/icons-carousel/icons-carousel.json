@@ -1,0 +1,62 @@
+[
+  {
+    "new": true,
+    "image": "/images/icons/estrias.jpg",
+    "name": "Estrias"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/gordura-localizada.jpg",
+    "name": "Gordura localizada"
+  },
+  {
+    "new": true,
+    "image": "/images/icons/celulite.jpg",
+    "name": "Celulite"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/remocao-de-manchas.jpg",
+    "name": "Remoção de manchas"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/remocao-de-tatuagens.jpg",
+    "name": "Remoção de tatuagens"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/depilacao-a-laser.jpg",
+    "name": "Depilação a laser"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/criofrequencia.jpg",
+    "name": "Criofrequência"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/ultraformer.jpg",
+    "name": "Ultraformer"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/radiofrequencia.jpg",
+    "name": "Radiofrequência"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/micose-de-unhas.jpg",
+    "name": "Micose de unhas"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/flacidez.jpg",
+    "name": "Flacidez"
+  },
+  {
+    "new": false,
+    "image": "/images/icons/criolipolise.jpg",
+    "name": "Criolipólise"
+  }
+]

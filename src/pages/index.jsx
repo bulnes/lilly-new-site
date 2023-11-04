@@ -1,10 +1,13 @@
 import { ButtonCTABlack } from "../components/button-cta/button-cta";
 import { Container } from "../components/container/container";
 import { Faq } from "../components/faq/faq";
+import { IconsCarousel } from "../components/icons-carousel/icons-carousel";
 
 export default function Index({ title }) {
   return (
     <>
+      <IconsCarousel />
+
       <div className="py-10">
         <Container>
           <h1 className="text-4xl font-bold text-black underline mb-6">

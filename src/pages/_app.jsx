@@ -115,6 +115,12 @@ export default function App({ Component, pageProps }) {
         body {
           background-color: #f4f4f4;
         }
+
+        html,
+        body,
+        #__next {
+          min-height: 100%;
+        }
       `}</style>
 
       <Component {...pageProps} />
