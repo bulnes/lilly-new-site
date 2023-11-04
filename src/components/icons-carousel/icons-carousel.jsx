@@ -13,8 +13,8 @@ export function IconsCarousel() {
         </h2>
       </Container>
 
-      <Container className="px-0">
-        <div className="overflow-x-scroll overflow-y-hidden flex items-start gap-5 pt-2 pb-3 before:block before:w-5 after:block after:w-5 lg:before:hidden lg:after:hidden lg:overflow-x-auto lg:pb-0 lg:gap-4">
+      <div className="px-0 mx-auto lg:px-0 lg:max-w-7xl">
+        <div className="overflow-x-auto overflow-y-hidden no-scrollbar flex items-start gap-2 pt-2 pb-3 before:block before:w-5 after:block after:w-5 lg:before:hidden lg:after:hidden lg:overflow-x-auto lg:pb-0 lg:gap-4">
           {iconsData.map((icon, key) => (
             <div
               key={key}
@@ -51,7 +51,7 @@ export function IconsCarousel() {
             </div>
           ))}
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
