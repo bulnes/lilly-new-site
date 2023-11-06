@@ -3,14 +3,14 @@
     "href": "/",
     "target": "__blank",
     "title": "Home",
-    "mobileImage": "/images/banners/banner-home-mobile-01.jpg",
-    "desktopImage": "/images/banners/banner-home-desktop-01.jpg"
+    "mobileImage": "/images/banners/banner-home-mobile-02.png",
+    "desktopImage": "/images/banners/banner-home-desktop-02.png"
   },
   {
     "href": "/",
     "target": "__blank",
     "title": "Home",
-    "mobileImage": "/images/banners/banner-home-mobile-02.png",
-    "desktopImage": "/images/banners/banner-home-desktop-02.png"
+    "mobileImage": "/images/banners/banner-home-mobile-01.jpg",
+    "desktopImage": "/images/banners/banner-home-desktop-01.jpg"
   }
 ]
