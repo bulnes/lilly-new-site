@@ -26,7 +26,7 @@ export function SubSubItems({ itemKey, subitemKey, subitem }) {
         isResponsive={false}
       />
 
-      <ul className="basis-full hidden peer-checked/subsubitem:block group-hover/level2:lg:block lg:absolute lg:top-0 lg:-right-52 lg:bg-[#F0F0F0] lg:rounded lg:rounded-tl-none">
+      <ul className="basis-full hidden peer-checked/subsubitem:block group-hover/level2:lg:block lg:absolute lg:top-0 lg:-right-52 lg:bg-[#F0F0F0] lg:rounded lg:rounded-tl-none lg:shadow-2xl">
         {subitem.subitems.map((subitem) => (
           <li
             key={subitem.name}
