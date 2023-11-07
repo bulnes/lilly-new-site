@@ -36,7 +36,7 @@ export function Banner() {
           className="mb-5 lg:mb-0"
         >
           {bannerData.map((banner, key) => (
-            <SplideSlide key={key} className="">
+            <SplideSlide key={key}>
               <Link
                 href={banner.href}
                 title={banner.title}
@@ -56,7 +56,7 @@ export function Banner() {
                     width={350}
                     height={360}
                     loading={"lazy"}
-                    className="rounded-3xl"
+                    className="rounded-2xl"
                   />
                 </picture>
               </Link>
