@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { Container } from "../container/container";
+import { NavDots } from "../nav-dots/nav-dots";
 import bannerData from "./banner-data.json";
 
 export function Banner() {
@@ -63,21 +64,12 @@ export function Banner() {
           ))}
         </Splide>
 
-        <div className="flex justify-center gap-2 lg:gap-4 lg:absolute lg:w-full lg:bottom-8">
-          {bannerData.map((banner, key) => (
-            <button
-              type="button"
-              key={key}
-              className={`h-2 rounded-full focus:outline-none lg:h-3 ${
-                bannerFocusIndex === key
-                  ? "bg-black w-8 lg:w-12"
-                  : "bg-[#D7D6D6] w-2 lg:w-3"
-              }`}
-              onClick={() => bannerRef.current.splide.go(key)}
-            >
-              <span className="sr-only">Ir para {banner.title}</span>
-            </button>
-          ))}
+        <div className="lg:absolute lg:w-full lg:bottom-8">
+          <NavDots
+            dataList={bannerData}
+            focusIndex={bannerFocusIndex}
+            handleOnClick={(key) => bannerRef.current.splide.go(key)}
+          />
         </div>
       </Container>
     </section>
